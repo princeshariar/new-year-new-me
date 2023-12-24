@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     /* background-size: cover; */
     /* width: 1660px; */
-    
+
 }
 
 .header-items {
@@ -29,7 +29,7 @@ body {
 }
 
 .header-description {
-    
+
     color: var(--Dark-02, #444343);
     font-size: 16px;
     font-style: normal;
@@ -49,4 +49,96 @@ body {
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 170px;
+}
+
+/* main section styles */
+
+main {
+    margin: 140px 230px;
+}
+
+.failure-container {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.failure-title {
+    color: var(--Dark-01, #151414);
+
+    font-size: 40px;
+
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+
+.failure-description {
+    color: var(--Dark-02, #444343);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 400px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    /* 162.5% */
+}
+
+ul li {
+    list-style: none;
+    margin-top: 16px;
+}
+
+.fa fa-check {
+    color: #16D887;
+}
+
+/* -------------------------- */
+.plan-container {
+    background: #FFF;
+    margin-top: 140px;
+
+}
+
+.my-plan {
+    text-align: center;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.plans {
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-around;
+
+}
+
+.plan-items {
+    text-align: center;
+    margin-top: 55px;
+
+}
+
+.plan-title {
+    color: var(--Dark-01, #151414);
+
+
+    font-size: 30px;
+
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+
+.plan-description {
+    color: var(--Dark-03, #737272);
+
+    font-size: 25px;
+
+    font-weight: 500;
+    margin-top: 15px;
+
 }
