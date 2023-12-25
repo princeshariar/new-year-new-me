@@ -19,6 +19,7 @@ body {
 }
 
 .header-title {
+    margin: 0;
     color: var(--Dark-01, #151414);
     /* text-align: right; */
 
@@ -84,6 +85,10 @@ main {
     margin-top: 24px;
     margin-bottom: 0;
     /* 162.5% */
+}
+
+ul {
+    padding: 0px;
 }
 
 ul li {
